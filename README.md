@@ -8,6 +8,7 @@ This project involves building a product recommendation system using Apache Spar
 2. **Web Application**: Flask application (`app.py`)
 3. **HTML Templates**: Front-end pages (`home.html`, `get-recommendation.html`)
 4. **Dataset**: [Amazon Review Dataset](https://jmcauley.ucsd.edu/data/amazon_v2/categoryFiles/All_Amazon_Review.json.gz)
+(its a 32 gb compressed file. You can improve the dataset reading by reading the compressed file directly)
 
 ## Requirements
 
