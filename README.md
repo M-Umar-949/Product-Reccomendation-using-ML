@@ -24,5 +24,5 @@ This project involves building a product recommendation system using Apache Spar
 **Clone the Repository**
 
    ```sh
-   git clone https://github.com/M-Umar-949/product-recommendation-system.git
+   git clone https://github.com/M-Umar-949/Product-Reccomendation-using-ML.git
    cd product-recommendation-system
