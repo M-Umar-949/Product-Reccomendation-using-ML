@@ -1,13 +1,27 @@
-# Product-Reccomendation-using-ML
+# Product Recommendation System using Amazon Review Dataset
 
-A Product recommendation system using Amazn review dataset (33 gb compressed) using Apache Spark and Front end with Flask Framework
+This project involves building a product recommendation system using Apache Spark for data processing, Flask for the web application, and MongoDB for data storage. We will also utilize Kafka for real-time data streaming. The dataset used is the Amazon Review Dataset.
 
-A Jypyter Notebook (project.ipynb) With data preprocessing and Dumping the data (6 million rows) onto mongodb Using Apache Spark and, some EDA(Exploratory Data Analysis) of the data. Along with the training of the model on the sample of Data.
+## Project Structure
 
-A file app.py with a python script of the Flask Application and the Implementaiong of Kafka, and Generating recccomendations on the basis of the model.
+1. **Data Preprocessing and EDA**: Jupyter Notebook (`project.ipynb`)
+2. **Web Application**: Flask application (`app.py`)
+3. **HTML Templates**: Front-end pages (`home.html`, `get-recommendation.html`)
+4. **Dataset**: [Amazon Review Dataset](https://jmcauley.ucsd.edu/data/amazon_v2/categoryFiles/All_Amazon_Review.json.gz)
 
-A file name home.html and get-reccomendation.html for the webpage.
+## Requirements
 
-The Dataset Can be downloaded from here 
-https://www.google.com/url?q=https://jmcauley.ucsd.edu/data/amazon_v2/categoryFiles/All_Amazon_Review.json.gz&sa=D&source=apps-viewer-frontend&ust=1684315878443566&usg=AOvVaw1bHFXPLqwwjKO4o24j1q1d&hl=en
-Please keep in mind that the size of overall dataset is almost 128 GB
+- Python 3.x
+- Apache Spark
+- MongoDB
+- Flask
+- Kafka
+- Jupyter Notebook
+
+## Installation
+
+**Clone the Repository**
+
+   ```sh
+   git clone https://github.com/M-Umar-949/product-recommendation-system.git
+   cd product-recommendation-system
